@@ -1,7 +1,7 @@
 # etsylistings
 
 ## Synopsis
-javascript using jquery and the Etsy api to create a galary of your Etsy listings.
+javascript using jquery and the Etsy api to create a gallery of your Etsy listings.
 
 ## Code Example
 see: etsyapi.html
@@ -14,6 +14,7 @@ If you an Ety shop owner with your own personal website, you may want to integra
 2. update the js file and replace 'apiKey' with the value of your api key from step 1.
 3. create an html doc that calls the js function:  function getlistings(shopname, params, limit, imagesz)
 Example:
+```html
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script>	
 		$.getScript("etsyapi.js",function(){
@@ -21,6 +22,7 @@ Example:
 		});			
 	</script>
 	<div class="img" id="etsy-images"></div>
+```
 Notes:
    - you must include the jquery library
    - you must include the div class with the id 'etsy-images'
@@ -30,6 +32,10 @@ Notes:
 https://www.etsy.com/developers/documentation/reference/listing#method_findalllistingactive
 
 ## Tests
+see sample usage at:
+http://www.bellasjardin.com/
+http://www.bellasjardin.com/etsy-shop/
+
 
 ## Contributors
 
