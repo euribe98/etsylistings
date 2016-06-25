@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BellasJardin on Etsy</title>
+	<meta charset="utf-8">
+	<style>
+		div.image {
+			padding: 10px;
+			float:left;
+			margin-right:5px;
+		}
+		div.img:hover {
+    		border: 1px solid #777;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script>	
+		$.getScript("etsyapi.js",function(){
+			getlistings("bellasjardin","title,price,url",12,"small");
+		});			
+	</script>
+	
+	<h2>BellasJardin on Etsy</h2>
+	<br>
+	<div class="img" id="etsy-images"></div>
+
+</body>
+</html>
