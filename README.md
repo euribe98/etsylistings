@@ -12,8 +12,9 @@ If you are an Ety shop owner with your own personal website, you may want to int
 
 ## Installation
 1. Get your own Etsy Api Key at: https://www.etsy.com/developers/documentation/getting_started/register
-2. update the js file and replace 'apiKey' with the value of your api key from step 1.
-3. create an html doc that calls the js function:  function getlistings(shopname, params, limit, imagesz)
+2. Update the js file and replace 'apiKey' with the value of your api key from step 1.
+3. Deploy the js file on your website server
+4. create an html doc or add a code snippet to an existing doc, that calls the js function:  function getlistings(shopname, params, limit, imagesz)
 Example:
 ```html
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -31,6 +32,7 @@ Usage:
 
 Note: To identify additional fields, you may call the api without the 'fields' parameter to return all fields in the result.  Then modify your 'fields' parameter to include the desired fields.  
 For example, enter this url, replacing 'shopname' and 'your_key' in your browser, then inspect the result.  https://openapi.etsy.com/v2/shops/shopname/listings/active?&limit=100&includes=MainImage&api_key=your_key
+
 
 ## API Reference
 https://www.etsy.com/developers/documentation/reference/listing#method_findalllistingactive
