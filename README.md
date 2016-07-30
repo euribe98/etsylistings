@@ -38,9 +38,9 @@ For example, enter this url, replacing 'shopname' and 'your_key' in your browser
 https://www.etsy.com/developers/documentation/reference/listing#method_findalllistingactive
 
 ## Tests
-see sample usage at the following website.
-1. Small images and 15 listings:   http://www.bellasjardin.com/
-2. Large images and all listings:  http://www.bellasjardin.com/etsy-shop/
+see sample usage at the following website.<br>
+1. Small images and 15 listings:   http://www.bellasjardin.com/ <br>
+2. Large images and all listings:  http://www.bellasjardin.com/etsy-shop/ <br>
 
 
 ## Contributors
