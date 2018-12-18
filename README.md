@@ -43,7 +43,3 @@ see sample usage at the following website.<br>
 2. Large images and all listings:  http://www.bellasjardin.com/etsy-shop/ <br>
 
 
-## Contributors
-Evan Uribe
-
-## License
